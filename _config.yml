@@ -23,6 +23,7 @@ email: p18kall@ionio.gr
 description: My Jekyll site for my CV
 baseurl: /cv-resume
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: PaulosKal/cv-resume 
 twitter_username: jekyllrb
 github_username:  jekyll
 
