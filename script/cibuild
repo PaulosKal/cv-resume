@@ -3,4 +3,3 @@
 set -e #errors
 
 bundle exec jekyll build
-bundle exec htmlproofer . --disable-external
