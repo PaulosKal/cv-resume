@@ -5,8 +5,11 @@ rvm:
 
 before_script:
   - chmod +x ./script/cibuild
+  - chmod +x ./script/html-to-pdf.sh
 
-script: ./script/cibuild
+script:
+  - ./script/cibuild
+  - - ./script/html-to-pdf.sh
 
 branches:
   only:
