@@ -15,7 +15,7 @@ before_script:
 
 script:
   - ./script/cibuild
-  - - ./script/html-to-pdf.sh
+  - ./script/html-to-pdf.sh
 
 branches:
   only:
